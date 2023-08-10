@@ -1,0 +1,455 @@
+/* Pagina 1 Index/Portada */
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+header{
+    font-family: 'Open Sans', sans-serif;
+    font-style:inherit;
+    background-color: aquamarine;
+    font-size: 11px;
+    text-align:center;
+}
+body{
+    font-size: 0px;
+    font-family: 'Open Sans';
+    margin: 5px;
+    padding: 5px;
+}
+
+p{
+    font-size: 13px;
+}
+
+img.logo{
+    width: 25%;
+    height: auto;
+}
+
+nav {
+    background-color: #e0dcdc;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:block;
+    /* justify-content: center; */
+}
+
+li {
+    padding: 5px;    
+}
+
+a {
+    text-decoration: none;
+    color: hsl(140, 90%, 16%);
+}
+
+nav a:hover {
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    font-size: 13px;
+}
+
+h2{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 13px;
+}
+
+/* main{
+    font-family: 'Open Sans';
+    font-size: 8px;
+    text-align: justify;
+    margin: 5px;
+    padding: 0px;
+} */
+
+.ol {
+    list-style-type:upper-roman;
+    font-size: 13px;
+}
+
+  
+.pieimagen{
+    text-align: center;
+    font-size: 10px;
+ }
+
+.sa{
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+}
+
+.concepto{
+    text-align: justify;
+}
+
+footer{
+    background-color: #e0dcdc;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Open Sans';
+    font-size: small;
+}
+
+.ods{
+    display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    background-color: rgba(255, 230, 0, 0.432);
+    text-align: justify;
+}
+    
+.ods1 li{
+    list-style-type:upper-roman;
+    font-size: 13px;
+    padding: 5px;
+    margin: 3px;
+}
+
+.objpagina{
+    list-style: decimal;
+    display: inline-block;
+    font-size: 13px;
+    text-align: justify;
+    padding: 5px;
+    margin: 3px;
+}
+
+.nosotras{
+    display:grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    gap: 3px;
+    
+}
+
+.parrafovioleta {
+    color: rgb(126, 16, 230);
+       
+}
+.nombre{
+    background-color: hsl(81, 61%, 69%);
+    border: 1px solido;
+    padding: 3px;
+    color:black;
+    text-align: center;  
+}
+
+.nosotras div:nth-child(1){
+    background-color: rgba(43, 226, 150, 0.521);
+}
+
+.nosotras div:nth-child(3){
+    background-color: rgba(43, 226, 150, 0.521);
+}
+
+.nosotras div:nth-child(5){
+    background-color: rgba(43, 226, 150, 0.521);
+}
+
+.preg{
+    display: flex;  
+    justify-content: center;
+}
+
+.preg1 {
+    text-align: center;
+    justify-content:center;
+    border-style: dashed;
+    padding: 10px;
+}
+
+.mapa{
+    text-align:center;
+}
+
+.botones{
+    /* padding: 5px;
+    margin: 5px; */
+    cursor: pointer;
+    font-style: italic;
+    font-size: 10px;
+    padding: 3px;
+    margin: 3px;
+ }
+ 
+.footerenlaces{
+    display:grid;
+    grid-template-columns: 33% 33% 33% ;
+    font-size: 10px;
+}
+
+.parrafofooter{
+    font-size: 10px;
+}
+.enlacesf{
+    display:flex;
+    flex-direction: column;
+}
+
+/* Pagina 2 Cambios de habitos */
+
+.turbina{
+    /* display: grid;
+    grid-template-columns: 80% 20%; */
+    /* gap: 10px; */
+    font-style: italic;
+    text-align: justify;
+    color: rgb(83, 7, 155);
+}
+
+.turbina1{
+    /* text-align: right; */
+    text-align: center;
+}
+
+.consumo{
+    /* display:grid;
+    grid-template-columns: 60% 40%;
+    gap: 2px;  */    
+    text-align: justify;
+}
+
+.educacion{
+    /* display:grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px; */
+    text-align: justify;
+}
+
+.videos{
+   /* display: flex;
+   flex-direction: row;
+   flex-wrap:wrap; */
+   text-align:center; 
+   background-color: rgba(255, 230, 0, 0.432);
+   padding: 5px;
+   margin: 5px;
+}
+
+.videos1{
+    background-color:#e0dcdc;
+    text-align: center;
+    /* padding: 10px;
+    margin: 10px; */
+}
+
+.video2{
+    padding: 10px;
+    margin: 10px;
+}
+
+.contenedorhuella {
+    /* display:grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px; */
+    text-align: center;
+}
+
+
+@media (min-width:768px) {
+    ul {
+        display:inline-block;
+        font-size: 13px;         
+    }
+
+    .ods1 li{
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .objpagina li{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    p{
+        font-size: 14px;
+    }  
+
+    .footerenlaces{
+        font-size: 11px;     
+    }
+
+    .parrafofooter{
+        font-size: 11px;
+
+    }
+    /* .video2{
+        width: 90%;
+        height: 70%;
+        justify-content: center;
+    } */
+       
+}
+
+@media (min-width: 1024px) {
+    ul {
+        display:inline-block;
+        font-size: 18px;
+        padding: 10px;         
+    }
+
+    .ods1 li{
+        padding: 10px;
+        font-size: 18px;
+    }
+    
+    .objpagina li{
+        font-size: 18px;
+        margin: 10px;
+        padding: 5px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 18px;
+    }  
+
+    h3{
+        font-size: 18px;
+    }
+    
+    h2{
+        font-size: 18px;
+    }
+
+    .footerenlaces{
+        font-size: 15px;     
+    }
+
+    .parrafofooter{
+        font-size: 15px;
+
+    }
+
+    .nosotras{
+        display:grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: auto;
+        gap: 3px;
+        padding: 10px;
+    }
+                 
+    .nombre{
+        background-color: hsl(81, 61%, 69%);
+        border: 1px solido;
+        padding: 10px;
+        color:black;
+        text-align: center;       
+    }
+
+    .botones{
+        cursor: pointer;
+        font-style: italic;
+        font-size: 15px;
+        padding: 3px;
+        margin: 3px;
+    }
+    
+    .ods{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: auto;
+        gap: 3px;
+        padding: 10px;
+        background-color: rgba(255, 230, 0, 0.432);
+        text-align: justify;
+    }
+
+    .parrafofuenteods{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .pieimagen{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .imgods{
+        width: 80%;
+        height: auto;
+        margin: 5px;
+    }
+   
+/* Pagina 2 Cambios de habitos */
+        
+    .turbina{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        gap: 10px;
+        font-style: italic;
+        text-align: justify;
+        color: rgb(83, 7, 155);
+    }
+    
+    .turbina1{
+       text-align: right;
+    }
+
+    .tierramovil{
+     width: 70%;
+     height: auto;
+    }
+    
+    .consumo{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        gap: 2px;
+        text-align: justify;
+    }
+    
+    .educacion{
+        
+        display:grid;
+        grid-template-columns: 50% 60%;
+        gap: 5px;
+        text-align: justify;
+    }
+    
+    .videos{
+       display: flex;
+       flex-direction: row;
+       flex-wrap:wrap;
+       gap: 1px;
+       text-align:center; 
+       justify-content: center;
+       background-color: rgba(255, 230, 0, 0.432)
+    }
+
+    .video2{
+        /* padding: 5px; */
+        /* margin: 5px; */
+        justify-content:center;
+    }
+
+    .contenedorhuella {
+        display:grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+        text-align: center;
+    }
+
+}
+
+
+/* Pagina 3 Campostaje */
+
+/* Pagina 4 Iniciativas */
+
+/* Pagina 5 Contacto */

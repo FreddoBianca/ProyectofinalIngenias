@@ -193,6 +193,7 @@ footer{
 
 .parrafofooter{
     font-size: 10px;
+    text-align: center;
 }
 .enlacesf{
     display:flex;
@@ -258,7 +259,7 @@ footer{
     text-align: center;
 }
 
-/* Pagina 2 Compostaje */
+         /* Pagina 2 Compostaje */
  p{
     text-align: justify;
  }

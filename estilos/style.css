@@ -258,6 +258,18 @@ footer{
     text-align: center;
 }
 
+/* Pagina 2 Compostaje */
+ p{
+    text-align: justify;
+ }
+
+
+
+
+
+
+
+
 
 @media (min-width:768px) {
     ul {

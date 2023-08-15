@@ -259,18 +259,48 @@ footer{
     text-align: center;
 }
 
-         /* Pagina 2 Compostaje */
+         /* Pagina 3 Compostaje */
+
+body{
+    margin:10 px;
+    padding: 10px;
+}
  p{
     text-align: justify;
  }
 
+ .tiposmetodos{
+    background-color: aquamarine;
+ }
 
+ .tiposmetodos{
+    padding: 5px;
+    margin: 20px;
+ }
 
+ .menuproyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #6f81ac;
+    }
+.menuproyectos li:hover {
+        background-color: #5a7fc725;
+        }
 
+.menuproyectos li ul {
+    display: none;
+    margin-left: 10px;
+            }
+.menuproyectos li:hover ul {
+    display: block;
+    }
 
-
-
-
+.pañales, .huertas, .ferias{
+    display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+}
 
 @media (min-width:768px) {
     ul {
@@ -465,8 +495,9 @@ footer{
     display: grid;
     grid-template-columns: 45% 45%;
     gap: 5px;
-    border-radius: 10px;
-    padding: 10px;
+    border: solid;
+    padding: 5px;
+    margin: 10px;
     justify-content: center;
 }
 
@@ -476,14 +507,11 @@ footer{
     justify-content: center;
     text-align: center;
     padding: 7px;
-    margin: 5px;
+    margin: 10px;
 }
 
-
-
-
+ 
 }
-
 
 /* Pagina 3 Campostaje */
 

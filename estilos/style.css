@@ -278,29 +278,7 @@ body{
     margin: 20px;
  }
 
- .menuproyectos ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    color: #6f81ac;
-    }
-.menuproyectos li:hover {
-        background-color: #5a7fc725;
-        }
-
-.menuproyectos li ul {
-    display: none;
-    margin-left: 10px;
-            }
-.menuproyectos li:hover ul {
-    display: block;
-    }
-
-.pañales, .huertas, .ferias{
-    display: flex;
-        justify-content: flex-start;
-        gap: 10px;
-}
+ 
 
 @media (min-width:768px) {
     ul {

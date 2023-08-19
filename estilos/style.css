@@ -278,7 +278,49 @@ body{
     margin: 20px;
  }
 
- 
+  /* Pagina 4 iniciativas */
+  
+  .menuacordeon{
+    text-align: center;
+  }
+
+  .menuproyectos ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+     }
+
+ .menuproyectos li {
+     padding: 10px;
+         }
+
+.menuproyectos li ul {
+        display: none;
+        margin-left: 10px;
+    }
+.imagenesmenu{
+    display: flex;
+    gap: 10px;
+}
+.imagenesmenu1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.imagenesmenu2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.menuproyectos li:hover ul {
+    display: block;
+    transition: 20s;
+    }
+.botonmenu{
+    background-color: rgb(8, 151, 84);
+    color: white;
+    }
 
 @media (min-width:768px) {
     ul {

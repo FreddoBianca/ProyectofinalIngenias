@@ -322,6 +322,33 @@ body{
     color: white;
     }
 
+             /* Pagina 5 contacto */
+
+.estructura{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+aside{
+    flex: 25%;
+    height: 400px;
+    background-color: rgb(214, 137, 36);
+}
+
+.main {
+    flex: 75%;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+.RS{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
 @media (min-width:768px) {
     ul {
         display:inline-block;
@@ -356,7 +383,18 @@ body{
         height: 70%;
         justify-content: center;
     } */
+
+    .estructura{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
        
+    .RS{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 1024px) {

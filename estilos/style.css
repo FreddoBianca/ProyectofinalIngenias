@@ -186,9 +186,11 @@ footer{
  }
  
 .footerenlaces{
-    display:grid;
+    display:flex;
     grid-template-columns: 33% 33% 33% ;
     font-size: 10px;
+    justify-content:space-around;
+   
 }
 
 .parrafofooter{
@@ -278,6 +280,14 @@ body{
     margin: 20px;
  }
 
+ .recursos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: bisque;
+    justify-content:space-between;
+    
+ }
+
   /* Pagina 4 iniciativas */
   
   .menuacordeon{
@@ -324,30 +334,30 @@ body{
 
              /* Pagina 5 contacto */
 
-.estructura{
+.rowcontacto{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
+
 aside{
-    flex: 25%;
-    height: 400px;
-    background-color: rgb(214, 137, 36);
+    flex: 30%;
+    min-height: 400px;
+    background-color: rgb(195, 233, 220);
+    text-align: center;
+    }
+
+.main{
+    flex: 70%;
+    background-color: rgba(218, 218, 171, 0.521);
 }
 
-.main {
-    flex: 75%;
-    height: 400px;
-    background-color: aquamarine;
-}
 
 .RS{
     display: flex;
     flex-direction: column;
-    
+
 }
-
-
 
 @media (min-width:768px) {
     ul {
@@ -384,17 +394,16 @@ aside{
         justify-content: center;
     } */
 
-    .estructura{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-       
     .RS{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
     }
+
+   .rowcontacto{
+    flex-direction: row;
+   }
+    
 }
 
 @media (min-width: 1024px) {
@@ -568,11 +577,4 @@ aside{
     margin: 10px;
 }
 
- 
 }
-
-/* Pagina 3 Campostaje */
-
-/* Pagina 4 Iniciativas */
-
-/* Pagina 5 Contacto */

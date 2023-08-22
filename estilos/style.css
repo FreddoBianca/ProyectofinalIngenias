@@ -280,11 +280,13 @@ body{
     margin: 20px;
  }
 
- .recursos{
+ .recursos {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
     background-color: bisque;
-    justify-content:space-between;
+    justify-content:center;
+    overflow:hidden;
+    text-align: center;
     
  }
 
@@ -352,7 +354,9 @@ aside{
     background-color: rgba(218, 218, 171, 0.521);
 }
 
-
+.noticias{
+    font-size: 13px;
+}
 .RS{
     display: flex;
     flex-direction: column;
@@ -404,6 +408,14 @@ aside{
     flex-direction: row;
    }
     
+   .noticias{
+    font-size: 15px;
+   }
+
+   .recursos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+   }
 }
 
 @media (min-width: 1024px) {

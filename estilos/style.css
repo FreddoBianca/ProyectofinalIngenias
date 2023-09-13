@@ -291,7 +291,31 @@ body{
  }
 
   /* Pagina 4 iniciativas */
+
+  /* .iniciativas1{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: dotted;
+    
+  }
+
+  .parrafoiniciativas1{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;   <!-- Bootstrap -->
+  }
   
+  .naviniciativas{
+    padding: 0px;
+  }
+
+/* .imagenacordeon1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    align-items: center;
+} */ 
+
+
   .menuacordeon{
     text-align: center;
   }
@@ -310,7 +334,7 @@ body{
 .menuproyectos li ul {
         display: none;
         margin-left: 10px;
-    }
+    } 
 .imagenesmenu{
     display: flex;
     gap: 10px;
@@ -362,6 +386,8 @@ aside{
     flex-direction: column;
 
 }
+
+/* --- Diseño Responsive --- */
 
 @media (min-width:768px) {
     ul {

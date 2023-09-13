@@ -331,10 +331,10 @@ body{
      padding: 10px;
          }
 
-.menuproyectos li ul {
+/* .menuproyectos li ul {
         display: none;
         margin-left: 10px;
-    } 
+    }  */
 .imagenesmenu{
     display: flex;
     gap: 10px;

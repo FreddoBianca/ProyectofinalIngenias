@@ -202,6 +202,11 @@ footer{
     flex-direction: column;
 }
 
+ul.redessocialeslogos{
+    display: inline-block;
+    
+        
+}
 /* Pagina 2 Cambios de habitos */
 
 .turbina{

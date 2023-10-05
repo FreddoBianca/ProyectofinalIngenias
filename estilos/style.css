@@ -363,6 +363,10 @@ body{
     color: white;
     }
 
+    section#Proyectos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
              /* Pagina 5 contacto */
 
 .rowcontacto{

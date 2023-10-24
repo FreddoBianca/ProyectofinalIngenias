@@ -100,8 +100,12 @@ const audio = document.querySelector("audio");
       console.log("El elemento con el ID 'botonSesion' no existe");
     }
   });
-  
 
+  
+    
+  
+  
+  
 
 // function validarDatos() {
 //     // Obtenemos los datos del formulario / input

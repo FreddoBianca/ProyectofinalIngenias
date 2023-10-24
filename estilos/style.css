@@ -1,4 +1,4 @@
-/* Pagina 1 Index/Portada */
+/* Página 1 Index/Portada */
 
 html, body {
     max-width: 100% !important;
@@ -207,6 +207,10 @@ ul.redessocialeslogos{
     
         
 }
+
+li.redessocialeslogos{
+    display:inline-block;
+}
 /* Pagina 2 Cambios de habitos */
 
 .turbina{
@@ -365,8 +369,65 @@ body{
 
     section#Proyectos{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-row: 25%, 25%, 25%, 25%;
+        background: rgb(103, 196, 160);
+        text-align: center;
+        border-radius: 5px;
+        padding: 20px;
+        
     }
+
+    section#Carrito{
+        border: 1px solid #ccc;
+        padding: 10px;
+        background: rgba(129, 135, 182, 0.589);
+    }
+    
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        border: 2px solid #ccc;
+        margin-bottom: 10px;
+        margin: 10px;
+      }
+
+      article button {
+        background-color: #045c17;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    /* Artículos en el carrito */
+article2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  /* Imagen en el carrito */
+  article2 img {
+    width: 20%;
+    margin-right: 10px;
+  }
+  
+  /* Título en el carrito */
+  article2 h2 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Autora en el carrito */
+  article2 p {
+    font-size: 14px;
+  }
+    
+      
              /* Pagina 5 contacto */
 
 .rowcontacto{
@@ -395,6 +456,205 @@ aside{
     flex-direction: column;
 
 }
+
+Player
+.player {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    
+  }
+
+  #audio1{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: #045c17;
+    text-align: center;    
+  }
+  
+   
+  /* Play button */
+  #play {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Pause button */
+  #pause {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Next button */
+  #next {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Previous button */
+  #prev {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+  }
+  
+  /* Music information */
+  section#musica p {
+    text-align: center;
+  }
+
+  .registro {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .registro fieldset {
+    border: none;
+  }
+  
+  .registro legend {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .registro table {
+    width: 100%;
+  }
+  
+  .registro table td {
+    width: 33%;
+    padding: 5px;
+  }
+  
+  .registro table h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .registro input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  div.botonesR{
+    text-align:left;
+  }
+
+  #botonesregistro1, #botonesregistro{
+background: #008000;
+border-radius: 10px;
+color: white;
+  }
+  
+  .registro select {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .registro textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .registro button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .registro button:hover {
+    background-color: #ccc;
+  }
+  
+  .registro #ValidarNombre {
+    color: red;
+  }
+  
+  .registro #ValidarComentarios {
+    color: red;
+  }
+  
+ 
+  .Sesion3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background: #9aa4da;
+  }
+  
+  #sesion4 {
+    width: 100%;
+  }
+  
+  #sesion4 h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #sesion4 p {
+    margin-bottom: 5px;
+  }
+  
+  #sesion4 input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #sesion4 button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #sesion4 #mensaje {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  
+  
 
 /* --- Diseño Responsive --- */
 
@@ -451,7 +711,8 @@ aside{
     display: grid;
     grid-template-columns: 50% 50%;
    }
-}
+
+   }
 
 @media (min-width: 1024px) {
     ul {
@@ -623,5 +884,14 @@ aside{
     padding: 7px;
     margin: 10px;
 }
+ /* //Pagina iniciativas// */
 
+ section#Proyectos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background: rgb(103, 196, 160);
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;    
+}
 }

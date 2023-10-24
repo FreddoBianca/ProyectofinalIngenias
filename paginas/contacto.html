@@ -51,10 +51,10 @@
                         <input type="apellido" id="apellido"name="nombre" required placeholder="Apellido"><br>
                     </div>
                     <div>
-                        <input type="email" id="email"name="e-mail" required placeholder="e-mail"><br>
+                        <input type="email" id="email"name="e-mail" required placeholder="E-mail"><br>
                     </div>
                     <div>
-                        <input type="telefono" id="telefono"name="telefono" required placeholder="teléfono"><br>
+                        <input type="telefono" id="telefono"name="telefono" required placeholder="Teléfono"><br>
                     </div>
                     <div>
                         <select name="Información">
@@ -63,13 +63,13 @@
                          </select><br>
                     </div>
                     <div>
-                        <input type="comentarios" id="comentarios"name="comentarios" required placeholder="comentarios"><br>
+                        <input type="comentarios" id="comentarios"name="comentarios" required placeholder="Comentarios"><br>
                         <p id="ValidarComentarios"></p>
                     </div>                  
 
-                    <div>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Borrar">
+                    <div class="botonesR">
+                        <input type="submit" value="Enviar" id="botonesregistro">
+                        <input type="reset" value="Borrar" id="botonesregistro1">
                     </div>
         
                 </fieldset>
@@ -80,7 +80,7 @@
 
             <h1>Escucha música inspiradora</h1>
             <div class="player">
-                <audio controls>
+                <audio id="audio1" controls>
                   <source src="../estilos/audio/Inspire - www.lokhmatovmusic.com.mp3" type="audio/mp3">
                   
                 </audio>
@@ -93,8 +93,8 @@
             <p>Fuente: https://www.lokhmatovmusic.com/</p>
             <p>Música de fondo gratuita de Yevhen Lokhmatov</p>
 
-            <div>
-                <form action="">
+            <div class="Sesion3">
+                <form id="sesion4">
                     <h2>Ingresar a la cuenta</h2>
                     <p>Usuario</p>
                     <input type="text" id="username">
@@ -161,6 +161,7 @@
          <button class="botones"><strong>Inicio</strong></button>
          </a> 
         </div>
+    </div>
     </main>
  <footer>
     <section class="footerenlaces">
@@ -179,14 +180,25 @@
          </div>
 
          <div class="enlacesf">
-             <h4>Seguinos en redes sociales</h4>
-             <div class="RS">
-             <a href="https://www.instagram.com/comunidadsustentable.red/?hl=es" alt="WhatsApp"> <img src="../estilos/img/WhatsApp.png" width= "30px", height="30px" alt="whatsapp"></a>
-             <a href="https://web.facebook.com/comunidad.sustentable.red/?_rdc=1&_rdr"><img src="../estilos/img/face.png" width= "30px", height="30px"  alt="Facebook"></a> 
-             <a href="https://www.instagram.com/comunidadsustentable.red/?hl=es"><img src="../estilos/img/instagram.jpg" width= "30px", height="30px"  alt="Instagram"></a> 
-             <a href="https://twitter.com/?lang=es"><img src="../estilos/img/Twitter.png" width= "30px", height="30px"  alt="Twitter"></a>
+            <h4>Seguinos en redes sociales</h4>
+            <div class="RS1">
+               <ul class="redessocialeslogos">
+                   <li class="redessocialeslogos">
+                      <a href="https://www.instagram.com/comunidadsustentable.red/?hl=es" alt="WhatsApp"> <img src="../estilos/img/WhatsApp.png" width= "30px" height="30px" alt="whatsapp"> </a> 
+                   </li>
+                   <li class="redessocialeslogos">
+                       <a href="https://web.facebook.com/comunidad.sustentable.red/?_rdc=1&_rdr"><img src="../estilos/img/face.png" width= "30px" height="30px"  alt="Facebook"></a> 
+                   </li>
+                   <li class="redessocialeslogos">
+                      <a href="https://www.instagram.com/comunidadsustentable.red/?hl=es"><img src="../estilos/img/instagram.jpg" width= "35px" height="35px"  alt="Instagram"></a>  
+                   </li>
+                   <li class="redessocialeslogos">
+                         <a href="https://twitter.com/?lang=es"> <img src="../estilos/img/Twitter.png" width= "35px" height="35px"  alt="Twitter"></a>
+                   </li>
+               </ul>
+                      
             </div>
-         </div>
+        </div>
      </section>
                    
 </footer>

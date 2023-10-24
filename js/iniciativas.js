@@ -12,7 +12,7 @@ let proyectos = `[
       "imagen": "https://media.istockphoto.com/id/1001310714/es/vector/mujer-se%C3%B1alando-con.jpg?s=170667a&w=0&k=20&c=ehqZXFKCWkVQ06h0HaeJXUIqVAjFbsWD2agn3FJbzGM="
     },
     {
-      "proyecto": "Nos importa el ambiente, $4000,00",
+      "proyecto": "El ambiente es salud, $4000,00",
       "autora": "Lucia",
       "contacto": "12345678",
       "imagen": "https://media.istockphoto.com/id/1362447090/es/vector/una-maestra-que-recibe-ideas-de-pie-con-un-gesto-de-la-mano-que-se%C3%B1ala.jpg?s=612x612&w=0&k=20&c=ehd-Yj_46QTkYSHC-e1CA8HJmZEBZzFstax8himEluU="

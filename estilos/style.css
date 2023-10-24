@@ -211,6 +211,47 @@ ul.redessocialeslogos{
 li.redessocialeslogos{
     display:inline-block;
 }
+
+.clima {
+    display: grid;
+    grid-template-columns: auto;
+    /* width: 500px; */
+    margin: 1px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid rgb(160, 153, 153);
+    background: #8d9beb;  
+    border-radius: 20px;
+}
+
+.climaTitulo{
+    text-align: center;
+    font-style: oblique;
+}
+
+#city{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#clima1{
+    background: #008000;  
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+#weatherInfo{
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
+
 /* Pagina 2 Cambios de habitos */
 
 .turbina{
@@ -713,6 +754,12 @@ color: white;
    }
 
    }
+
+   .clima {
+    display:inline-block;
+    
+    
+    }
 
 @media (min-width: 1024px) {
     ul {
